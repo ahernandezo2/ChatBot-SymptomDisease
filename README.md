@@ -10,15 +10,20 @@ An intelligent medical assistant chatbot that predicts potential diseases and re
 - Designed for future deployment via WhatsApp using Twilio or similar.
 - Trained on a real-world dataset of symptoms, diseases, and patient profiles.
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
+Python – Core programming language
 
-- Python
-- Pandas / NumPy
-- Scikit-learn / PyTorch or TensorFlow (depending on the model used)
-- FAISS (Facebook AI Similarity Search)
-- Hugging Face Transformers (for embeddings, if used)
-- Flask / FastAPI (for API/chatbot backend)
-- WhatsApp Integration (optional, via Twilio API)
+Pandas & NumPy – Data loading, processing, and numerical operations
+
+FAISS – Fast similarity search using vector embeddings
+
+SentenceTransformers (Hugging Face) – Used to embed patient profiles and symptoms into dense vectors (all-MiniLM-L6-v2 model)
+
+Scikit-learn (optional) – Could be used for classification if added later
+
+Flask or FastAPI (optional) – For building an API interface or backend chatbot service
+
+Twilio API (planned) – For WhatsApp integration and chatbot deployment
 
 ## 💡 How It Works
 
