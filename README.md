@@ -37,7 +37,7 @@ Twilio API (planned) – For WhatsApp integration and chatbot deployment
 
 ## ✅ Example Input
 
-```json
+
 {
   "age": 40,
   "gender": "Male",
